@@ -1,0 +1,22 @@
+{
+  "name": "mern-edf-analysis-app",
+  "version": "1.0.0",
+  "description": "A MERN stack application for analyzing user data from EDF files.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^5.13.23",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
